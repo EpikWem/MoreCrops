@@ -99,7 +99,9 @@ public class Main
             LOGGER.info("HELLO from Register Item");
             itemRegistryEvent.getRegistry().registerAll(
                 setup("barley", ModItems.BARLEY),
-                setup("barley_bale", ModItems.BARLEY_BALE)
+                setup("barley_bale", ModItems.BARLEY_BALE),
+                setup("barley_bread", ModItems.BARLEY_BREAD),
+                setup("barley_seeds", ModItems.BARLEY_SEEDS)
             );
             LOGGER.info("Item registering FINISHED");
         }
