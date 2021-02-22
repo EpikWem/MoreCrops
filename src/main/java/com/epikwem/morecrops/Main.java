@@ -101,7 +101,28 @@ public class Main
                 setup("barley", ModItems.BARLEY),
                 setup("barley_bale", ModItems.BARLEY_BALE),
                 setup("barley_bread", ModItems.BARLEY_BREAD),
-                setup("barley_seeds", ModItems.BARLEY_SEEDS)
+                setup("barley_bread_dough", ModItems.BARLEY_BREAD_DOUGH),
+                setup("barley_seeds", ModItems.BARLEY_SEEDS),
+                setup("hearty_bread", ModItems.HEARTY_BREAD),
+                setup("hearty_bread_dough", ModItems.HEARTY_BREAD_DOUGH),
+                setup("hop", ModItems.HOP),
+                setup("hop_bale", ModItems.HOP_BALE),
+                setup("hop_bread", ModItems.HOP_BREAD),
+                setup("hop_bread_dough", ModItems.HOP_BREAD_DOUGH),
+                setup("hop_seeds", ModItems.HOP_SEEDS),
+                setup("oat", ModItems.OAT),
+                setup("oat_bale", ModItems.OAT_BALE),
+                setup("oat_bread", ModItems.OAT_BREAD),
+                setup("oat_bread_dough", ModItems.OAT_BREAD_DOUGH),
+                setup("oat_seeds", ModItems.OAT_SEEDS),
+                setup("rye", ModItems.RYE),
+                setup("rye_bale", ModItems.RYE_BALE),
+                setup("rye_bread", ModItems.RYE_BREAD),
+                setup("rye_bread_dough", ModItems.RYE_BREAD_DOUGH),
+                setup("rye_seeds", ModItems.RYE_SEEDS),
+                setup("wholemeal_bread", ModItems.WHOLEMEAL_BREAD),
+                setup("wholemeal_bread_dough", ModItems.WHOLEMEAL_BREAD_DOUGH),
+                setup("wheat_bread_dough", ModItems.WHEAT_BREAD_DOUGH)
             );
             LOGGER.info("Item registering FINISHED");
         }
