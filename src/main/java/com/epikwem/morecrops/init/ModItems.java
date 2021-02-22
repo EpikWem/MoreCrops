@@ -12,10 +12,10 @@ public class ModItems {
         HOP = new Item( new Item.Properties().group(ItemGroup.MATERIALS) ),
         RYE = new Item( new Item.Properties().group(ItemGroup.MATERIALS) ),
 
-        BARLEY_BALE = new BlockItem( ModBlocks.BARLEY_BALE, new Item.Properties().group(ItemGroup.MATERIALS) ),
-        OAT_BALE = new BlockItem( ModBlocks.OAT_BALE, new Item.Properties().group(ItemGroup.MATERIALS) ),
-        HOP_BALE = new BlockItem( ModBlocks.HOP_BALE, new Item.Properties().group(ItemGroup.MATERIALS) ),
-        RYE_BALE = new BlockItem( ModBlocks.RYE_BALE, new Item.Properties().group(ItemGroup.MATERIALS) ),
+        BARLEY_BALE = new BlockItem( ModBlocks.BARLEY_BALE, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS) ),
+        OAT_BALE = new BlockItem( ModBlocks.OAT_BALE, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS) ),
+        HOP_BALE = new BlockItem( ModBlocks.HOP_BALE, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS) ),
+        RYE_BALE = new BlockItem( ModBlocks.RYE_BALE, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS) ),
 
         BARLEY_BREAD = new Item( new Item.Properties().group(ItemGroup.FOOD).food(ModFoods.BARLEY_BREAD) ),
         OAT_BREAD = new Item( new Item.Properties().group(ItemGroup.FOOD).food(ModFoods.OAT_BREAD) ),

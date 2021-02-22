@@ -139,7 +139,7 @@ public class Main
 
     // to register an entry (block, item...)
     public static <T extends IForgeRegistryEntry<T>> T setup(final String name, final T entry) {
-        LOGGER.info("  setup("+ name+ ")\n");
+        LOGGER.info("    setup("+ name+ ")");
         return entry.setRegistryName(new ResourceLocation(Main.MODID, name));
     }
 

@@ -1,7 +1,7 @@
 
 {
 	"item.morecrops.barley": "Barley",
-	"item.morecrops.barley_bale": "Barley Bale",
+	"block.morecrops.barley_bale": "Barley Bale",
 	"item.morecrops.barley_bread": "Barley Bread",
 	"item.morecrops.barley_bread_dough": "Barley Bread Dough",
 	"item.morecrops.barley_seeds": "Barley Seeds",
@@ -12,19 +12,19 @@
 	"item.morecrops.hearty_bread_dough": "Hearty Bread Dough",
 
 	"item.morecrops.hop": "Hop",
-	"item.morecrops.hop_bale": "Hop Bale",
+	"block.morecrops.hop_bale": "Hop Bale",
 	"item.morecrops.hop_bread": "Hop Bread",
 	"item.morecrops.hop_bread_dough": "Hop Bread Dough",
 	"item.morecrops.hop_seeds": "Hop Seeds",
 
 	"item.morecrops.oat": "Oat",
-	"item.morecrops.oat_bale": "Oat Bale",
+	"block.morecrops.oat_bale": "Oat Bale",
 	"item.morecrops.oat_bread": "Oat Bread",
 	"item.morecrops.oat_bread_dough": "Oat Bread Dough",
 	"item.morecrops.oat_seeds": "Oat Seeds",
 
 	"item.morecrops.rye": "Rye",
-	"item.morecrops.rye_bale": "Rye Bale",
+	"block.morecrops.rye_bale": "Rye Bale",
 	"item.morecrops.rye_bread": "Rye Bread",
 	"item.morecrops.rye_bread_dough": "Rye Bread Dough",
 	"item.morecrops.rye_seeds": "Rye Seeds",
