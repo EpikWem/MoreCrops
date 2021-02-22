@@ -1,7 +1,13 @@
 package com.epikwem.morecrops;
 
+import com.epikwem.morecrops.init.ModBlocks;
+import com.epikwem.morecrops.init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -13,21 +19,23 @@ import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.IForgeRegistryEntry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("morecrops")
+@Mod(Main.MODID)
 public class Main
 {
-    // Directly reference a log4j logger.
+    public static final String MODID = "morecrops";
     private static final Logger LOGGER = LogManager.getLogger();
 
     public Main() {
         // Register the setup method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setupEvent);
         // Register the enqueueIMC method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
         // Register the processIMC method for modloading
@@ -39,7 +47,7 @@ public class Main
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void setup(final FMLCommonSetupEvent event)
+    private void setupEvent(final FMLCommonSetupEvent event)
     {
         // some preinit code
         LOGGER.info("HELLO FROM MORECROPS's PREINIT");
@@ -75,10 +83,33 @@ public class Main
     // Event bus for receiving Registry Events)
     @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
     public static class RegistryEvents {
+
         @SubscribeEvent
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> blockRegistryEvent) {
-            // register a new block here
             LOGGER.info("HELLO from Register Block");
+            blockRegistryEvent.getRegistry().registerAll(
+                setup("barley_bale", ModBlocks.BARLEY_BALE),
+                setup("barley_crop", ModBlocks.BARLEY_CROP)
+            );
+            LOGGER.info("Block registering FINISHED");
         }
+
+        @SubscribeEvent
+        public static void onItemsRegistry(final RegistryEvent.Register<Item> itemRegistryEvent) {
+            LOGGER.info("HELLO from Register Item");
+            itemRegistryEvent.getRegistry().registerAll(
+                setup("barley", ModItems.BARLEY),
+                setup("barley_bale", ModItems.BARLEY_BALE)
+            );
+            LOGGER.info("Item registering FINISHED");
+        }
+
     }
+
+    // to register an entry (block, item...)
+    public static <T extends IForgeRegistryEntry<T>> T setup(final String name, final T entry) {
+        LOGGER.info("  setup("+ name+ ")\n");
+        return entry.setRegistryName(new ResourceLocation(Main.MODID, name));
+    }
+
 }
