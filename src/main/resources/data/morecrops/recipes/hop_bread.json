@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "breads",
+	"ingredient": {
+		"item": "morecrops:hop_bread_dough"
+	},
+	"result": "morecrops:hop_bread",
+	"experience": 0.3,
+	"cookingtime": 180
+}

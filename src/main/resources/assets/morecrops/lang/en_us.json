@@ -1,0 +1,21 @@
+{
+	"item.morecrops.hard_boiled_egg": "Hard Boiled Egg",
+
+	"item.morecrops.barley": "Barley",
+	"item.morecrops.oat": "Oat",
+	"item.morecrops.hop": "Hop",
+	"item.morecrops.rye": "Rye",
+	
+	"item.morecrops.barley_seeds": "Barley Seeds",
+	"item.morecrops.oat_seeds": "Oat Seeds",
+	"item.morecrops.hop_seeds": "Hop Seeds",
+	"item.morecrops.rye_seeds": "Rye Seeds",
+
+	"item.morecrops.barley_bread": "Barley Bread",
+	"item.morecrops.oat_bread": "Oat Bread",
+	"item.morecrops.hop_bread": "Hop Bread",
+	"item.morecrops.rye_bread": "Rye Bread",
+
+	"item.morecrops.hearty_bread": "Hearty Bread",
+	"item.morecrops.wholemeal_bread": "Wholemeal Bread"
+}

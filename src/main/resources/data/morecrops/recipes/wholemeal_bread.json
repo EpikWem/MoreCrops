@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "complex-breads",
+	"ingredient": {
+		"item": "morecrops:wholemeal_bread_dough"
+	},
+	"result": "morecrops:wholemeal_bread",
+	"experience": 0.3,
+	"cookingtime": 180
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "block/rye_bale" },
+        "axis=z": { "model": "block/rye_bale", "x": 90 },
+        "axis=x": { "model": "block/rye_bale", "x": 90, "y": 90 }
+    }
+}

@@ -1,0 +1,21 @@
+{
+	"item.morecrops.hard_boiled_egg": "Oeuf Dur",
+
+	"item.morecrops.barley": "Orge",
+	"item.morecrops.oat": "Avoine",
+	"item.morecrops.hop": "Houblon",
+	"item.morecrops.rye": "Seigle",
+
+	"item.morecrops.barley_seeds": "Grains d'Orge",
+	"item.morecrops.oat_seeds": "Grains d'Avoine",
+	"item.morecrops.hop_seeds": "Grains de Houblon",
+	"item.morecrops.rye_seeds": "Grains de Seigle",
+
+	"item.morecrops.barley_bread": "Pain d'Orge",
+	"item.morecrops.oat_bread": "Pain d'Avoine",
+	"item.morecrops.hop_bread": "Pain de Houblon",
+	"item.morecrops.rye_bread": "Pain de Seigle",
+
+	"item.morecrops.hearty_bread": "Pain Consistant",
+	"item.morecrops.wholemeal_bread": "Pain Complet"
+}

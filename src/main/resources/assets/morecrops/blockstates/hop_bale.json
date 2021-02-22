@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "block/hop_bale" },
+        "axis=z": { "model": "block/hop_bale", "x": 90 },
+        "axis=x": { "model": "block/hop_bale", "x": 90, "y": 90 }
+    }
+}

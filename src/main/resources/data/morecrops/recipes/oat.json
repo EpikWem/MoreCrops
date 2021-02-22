@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "crops",
+	"ingredients": [
+		{
+			"item": "morecrops:oat_bale"
+		}
+	],
+	"result": {
+		"item": "morecrops:oat",
+		"count": 9
+	}
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "morecrops:rye",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "name": "morecrops:rye"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "morecrops:rye_seeds"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

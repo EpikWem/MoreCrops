@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "breads_dough",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "morecrops:barley_seeds"
+		},
+		"X": {
+			"item": "minecraft:water_bucket"
+		}
+	},
+	"result": {
+		"item": "morecrops:barley_bread_dough",
+		"count": 3
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "complex_breads_dough",
+	"pattern": [
+		"BBO",
+		"RXO",
+		"RHH"
+	],
+	"key": {
+		"B": {
+			"item": "morecrops:barley_seeds"
+		},
+		"O": {
+			"item": "morecrops:oat_seeds"
+		},
+		"H": {
+			"item": "morecrops:hop_seeds"
+		},
+		"R": {
+			"item": "morecrops:rye_seeds"
+		},
+		"X": {
+			"item": "minecraft:water_bucket"
+		}
+	},
+	"result": {
+		"item": "morecrops:wholemeal_bread_dough",
+		"count": 1
+	}
+}

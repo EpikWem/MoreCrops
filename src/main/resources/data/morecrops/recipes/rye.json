@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "crops",
+	"ingredients": [
+		{
+			"item": "morecrops:rye_bale"
+		}
+	],
+	"result": {
+		"item": "morecrops:rye",
+		"count": 9
+	}
+}

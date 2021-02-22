@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "morecrops:barley",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "name": "morecrops:barley"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "morecrops:barley_seeds"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

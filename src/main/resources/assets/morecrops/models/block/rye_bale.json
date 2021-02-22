@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "block/rye_bale_top",
+        "side": "block/rye_bale_side"
+    }
+}

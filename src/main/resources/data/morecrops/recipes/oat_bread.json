@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"group": "breads",
+	"ingredient": {
+		"item": "morecrops:oat_bread_dough"
+	},
+	"result": "morecrops:oat_bread",
+	"experience": 0.3,
+	"cookingtime": 180
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "block/oat_bale" },
+        "axis=z": { "model": "block/oat_bale", "x": 90 },
+        "axis=x": { "model": "block/oat_bale", "x": 90, "y": 90 }
+    }
+}

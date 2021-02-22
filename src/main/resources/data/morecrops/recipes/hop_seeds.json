@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "seeds",
+	"ingredients": [
+		{
+			"item": "morecrops:hop"
+		}
+	],
+	"result": {
+		"item": "morecrops:hop_seeds",
+		"count": 2
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "complex_breads_dough",
+	"pattern": [
+			"BRB",
+			"RXR",
+			"BRB"
+	],
+	"key": {
+		"B": {
+			"item": "morecrops:barley_seeds"
+		},
+		"R": {
+			"item": "morecrops:rye_seeds"
+		},
+		"X": {
+			"item": "minecraft:water_bucket"
+		}
+	},
+	"result": {
+		"item": "morecrops:hearty_bread_dough",
+		"count": 2
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "block/hop_bale_top",
+        "side": "block/hop_bale_side"
+    }
+}
