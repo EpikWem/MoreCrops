@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "morecrops:hearty_bread_dough"
+  },
+  "result": "morecrops:hearty_bread",
+  "experience": 0.35,
+  "cookingtime": 100
+}

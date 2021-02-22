@@ -128,9 +128,9 @@ public class Main
                 setup("rye_bread", ModItems.RYE_BREAD),
                 setup("rye_bread_dough", ModItems.RYE_BREAD_DOUGH),
                 setup("rye_seeds", ModItems.RYE_SEEDS),
+                setup("wheat_bread_dough", ModItems.WHEAT_BREAD_DOUGH),
                 setup("wholemeal_bread", ModItems.WHOLEMEAL_BREAD),
-                setup("wholemeal_bread_dough", ModItems.WHOLEMEAL_BREAD_DOUGH),
-                setup("wheat_bread_dough", ModItems.WHEAT_BREAD_DOUGH)
+                setup("wholemeal_bread_dough", ModItems.WHOLEMEAL_BREAD_DOUGH)
             );
             LOGGER.info("Item registering FINISHED");
         }

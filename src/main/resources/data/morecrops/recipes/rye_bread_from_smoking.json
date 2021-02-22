@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "morecrops:rye_bread_dough"
+  },
+  "result": "morecrops:rye_bread",
+  "experience": 0.35,
+  "cookingtime": 100
+}

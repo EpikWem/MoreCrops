@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "morecrops:oat_bread_dough"
+  },
+  "result": "morecrops:oat_bread",
+  "experience": 0.35,
+  "cookingtime": 100
+}
