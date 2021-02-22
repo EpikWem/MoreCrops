@@ -89,7 +89,14 @@ public class Main
             LOGGER.info("HELLO from Register Block");
             blockRegistryEvent.getRegistry().registerAll(
                 setup("barley_bale", ModBlocks.BARLEY_BALE),
-                setup("barley_crop", ModBlocks.BARLEY_CROP)
+                setup("barley_crop", ModBlocks.BARLEY_CROP),
+                setup("hop_bale", ModBlocks.HOP_BALE),
+                setup("hop_crop", ModBlocks.HOP_CROP),
+                setup("oat_bale", ModBlocks.OAT_BALE),
+                setup("oat_crop", ModBlocks.OAT_CROP),
+                setup("rye_bale", ModBlocks.RYE_BALE),
+                setup("rye_crop", ModBlocks.RYE_CROP)
+
             );
             LOGGER.info("Block registering FINISHED");
         }
@@ -103,6 +110,7 @@ public class Main
                 setup("barley_bread", ModItems.BARLEY_BREAD),
                 setup("barley_bread_dough", ModItems.BARLEY_BREAD_DOUGH),
                 setup("barley_seeds", ModItems.BARLEY_SEEDS),
+                setup("hard_boiled_egg", ModItems.HARD_BOILED_EGG),
                 setup("hearty_bread", ModItems.HEARTY_BREAD),
                 setup("hearty_bread_dough", ModItems.HEARTY_BREAD_DOUGH),
                 setup("hop", ModItems.HOP),
